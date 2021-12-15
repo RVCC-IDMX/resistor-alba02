@@ -29,7 +29,7 @@ let color;
 //event listeners for color 0
 
 color0.addEventListener('click', function(e){
- color = e.target.className.replace("box ", " ");
+ color = e.target.className.replace('box ', '');
 b0.className = `band ${color}`;
 bands.color1 = color;
 answer.innerText= getResistorOhms(bands);
@@ -38,21 +38,21 @@ answer.innerText= getResistorOhms(bands);
 //color 1
 
 color1.addEventListener('click', function(e){
-    color = e.target.className.replace("box ", " ");
+    color = e.target.className.replace('box ', '');
    b1.className = `band ${color}`;
    bands.color2 = color;
    answer.innerText= getResistorOhms(bands);
    })
 //color2
    color2.addEventListener('click', function(e){
-    color = e.target.className.replace("box ", " ");
+    color = e.target.className.replace('box ', '');
    b2.className = `band ${color}`;
    bands.multiplier = color;
    answer.innerText= getResistorOhms(bands);
    })
 //color 3
    color3.addEventListener('click', function(e){
-    color = e.target.className.replace("box ", " ");
+    e.target.className.replace('box ', '');
    b3.className = `band ${color}`;
    bands.tolerance = color;
    answer.innerText= getResistorOhms(bands);
